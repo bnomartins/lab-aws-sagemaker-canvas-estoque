@@ -45,3 +45,21 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ## 🤔 Dúvidas?
 
 Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+
+
+## Insights extraído do modelo de predição:
+A análise se baseia em um período muito curto, apenas 18 dias.
+O produto 1 é um produto de consumo diário.
+As promoções costumam acontecer no fim de semana.
+A tabela representa dados dos últimos 10 anos.
+Há dados históricos de vendas para cada produto.
+
+O estoque varia significativamente entre os produtos, com alguns produtos como o ID_PRODUTO 5 apresentando estoque consistente acima de 80 unidades, enquanto outros como o ID_PRODUTO 6 e 24 têm estoque muito baixo, geralmente abaixo de 50 unidades.
+
+Há uma tendência geral de queda no estoque durante o período analisado, especialmente para produtos com estoque baixo. Isso pode indicar uma alta demanda ou um problema de reposição.
+
+As promoções (FLAG_PROMOCAO=1) parecem resultar em uma redução significativa no estoque, principalmente para produtos com estoque mais alto.
+O período analisado apresenta um número limitado de promoções, dificultando a análise completa do seu impacto.
+
+O estoque varia consideravelmente de um dia para o outro, tanto para produtos com promoções quanto para aqueles sem promoções. Isso indica que a demanda pode ser variável, ou que há problemas com a reposição.
+
